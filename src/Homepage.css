@@ -1,0 +1,30 @@
+.qoute-box{
+  background-color: rgb(35, 52, 52);
+  height: 45vh;
+  width: 18%;
+  position: absolute;
+  left: 15%;
+  bottom: 5%;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-wrap: break-word;
+  word-break: break-word;
+   }
+   .qoute{
+   color: rgb(213, 165, 77);
+   font-size: large;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+   }
+   .heading{
+     color: cyan;
+     font-size: medium;
+   }
+   button{
+     background-color: transparent;
+     border: none;
+   }
+   

@@ -1,0 +1,105 @@
+.game {
+    background-color: rgb(35, 52, 52);
+    height: 90vh;
+    width: 25%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 7%;
+    margin: 2%; /* Margin on all sides */
+  }
+.game-container{
+
+    height: 60vh;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+  
+    width: 80%;
+}
+.game-container p {
+    color: cyan;
+}
+.game-container p span{
+    color: orange;
+}
+.pickPlayer{
+    color: white;
+    background-color:rgb(48, 72, 72);
+    height: 16vh;
+    padding-top: 20px;
+    
+    font-weight: 100;
+
+}
+.pickPlayer div{
+    background-color: rgb(32, 46, 47);
+    margin-top:10px ;
+    width: 70%;
+    height: 30px;
+   border: none;
+   border-radius: 5px;
+    margin-left: 16%;
+    margin-top: 2%;
+}
+.button1 {
+    transition: all ease 1s;
+    color: azure;
+    width: 30px;
+    font-weight: 600;
+   margin-right: 10px;
+   background-color:rgb(32, 46, 47) ;
+}
+.button2{
+  transition: all ease 1s;
+ color: azure;
+ font-weight: 600;
+    background-color:rgb(32, 46, 47) ;
+   margin-left:10px ;
+   width: 30px;
+}
+.button2:focus{
+    color:rgb(32, 46, 47) ;
+    width: 55px;
+  border-radius: 5px;
+    background-color: aliceblue;
+}
+.button1:focus{
+    color:rgb(32, 46, 47) ;
+    width: 55px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+.cpu{
+    width: 100%;
+    height: 30px;
+    margin-top: 30px;
+    background-color: rgb(243, 173, 75);
+    border-radius: 5px;
+    font-weight: 600;
+    color:rgb(32, 46, 47) ;
+}
+.human{
+    width: 100%;
+    font-weight: 600;
+    color:rgb(32, 46, 47) ;
+    height: 30px;
+    margin-top: 30px;
+    background-color: rgb(68, 179, 222);
+    border-radius: 5px;
+}
+.human span{
+    font-weight: 200;
+    font-size: 12px;
+}
+.invite{
+    bottom: 0;
+    font-weight: 600;
+    color:rgb(32, 46, 47) ;
+    width: 70%;
+    height: 30px;
+    margin-top: 30px;
+    background-color: rgb(239, 126, 12);
+    border-radius: 5px;
+}
